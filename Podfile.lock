@@ -1,0 +1,17 @@
+PODS:
+  - Fingertips (0.3.0)
+  - pop (1.0.3)
+
+DEPENDENCIES:
+  - Fingertips (~> 0.3)
+  - pop (from `https://github.com/facebook/pop.git`)
+
+EXTERNAL SOURCES:
+  pop:
+    :git: https://github.com/facebook/pop.git
+
+SPEC CHECKSUMS:
+  Fingertips: 0c690bf99d1e07e4dd9e0b23f6a453fdf63a2575
+  pop: 7b5b9e8735d9ea34818c0ceab493a92b5f0259c7
+
+COCOAPODS: 0.32.1
