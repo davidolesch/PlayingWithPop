@@ -14,8 +14,8 @@
 - (IBAction)touchedButton:(UIButton *)sender
 {
     //choose new width of square
-    float squareSide = sender.frame.size.width == 200.f ? 300.f : 200.f;
-    
+    float squareSide = sender.bounds.size.width == 200.f ? 300.f : 200.f;
+
     //animate bounds
     POPSpringAnimation *boundsAnim = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerBounds];
     boundsAnim.toValue = [NSValue valueWithCGRect:CGRectMake(0.f, 0.f, squareSide, squareSide)];
