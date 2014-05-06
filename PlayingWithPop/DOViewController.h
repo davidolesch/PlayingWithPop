@@ -10,4 +10,6 @@
 
 @interface DOViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIView *containerView;
+
 @end

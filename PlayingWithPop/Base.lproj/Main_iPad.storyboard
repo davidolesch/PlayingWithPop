@@ -24,13 +24,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.3598075885" green="0.90431680479999998" blue="0.46925155940000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <gestureRecognizers/>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" image="Picture-Profile">
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Profile" image="Picture-Profile">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="touchedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WEd-8O-ODn"/>
+                                            <outletCollection property="gestureRecognizers" destination="IdN-wL-xNX" appends="YES" id="3Ow-NG-JdN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3u-Cr-sma">
@@ -38,12 +42,15 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" image="Timer">
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Timer" image="Timer">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="touchedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e7K-j1-nYo"/>
+                                            <outletCollection property="gestureRecognizers" destination="scA-2T-gFC" appends="YES" id="2Cf-dL-Yes"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pk7-wH-qbk">
@@ -52,12 +59,15 @@
                                         <color key="backgroundColor" red="1" green="0.2541913777" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <gestureRecognizers/>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" image="Award">
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Leaderboard" image="Award">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="touchedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z5U-RY-P5k"/>
+                                            <outletCollection property="gestureRecognizers" destination="BNF-N2-Tbs" appends="YES" id="CIX-XM-5aR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9UG-9x-Lh1">
@@ -65,12 +75,15 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.12549019610000001" green="0.81176470590000005" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" image="Settings">
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Settings" image="Settings">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="touchedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XfY-z0-vIU"/>
+                                            <outletCollection property="gestureRecognizers" destination="OJm-BX-BWf" appends="YES" id="cgB-4F-9g8"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -94,8 +107,31 @@
                             <constraint firstAttribute="centerY" secondItem="nLP-Zh-Wqh" secondAttribute="centerY" id="zwR-g4-4Rm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="containerView" destination="nLP-Zh-Wqh" id="2cT-90-GHD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="IdN-wL-xNX">
+                    <connections>
+                        <action selector="viewDragged:" destination="BYZ-38-t0r" id="UtA-Eg-cch"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="scA-2T-gFC">
+                    <connections>
+                        <action selector="viewDragged:" destination="BYZ-38-t0r" id="flE-Fj-o2s"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="BNF-N2-Tbs">
+                    <connections>
+                        <action selector="viewDragged:" destination="BYZ-38-t0r" id="oMF-Ry-jdh"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="OJm-BX-BWf">
+                    <connections>
+                        <action selector="viewDragged:" destination="BYZ-38-t0r" id="Msr-a6-wap"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-360" y="-293"/>
         </scene>
